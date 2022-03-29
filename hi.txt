@@ -1,83 +1,88 @@
 
 [32;1mName                            CPU TotalProcessorTime[0m
 [32;1m----                            --- ------------------[0m
-Code                     189.921875 00:03:09.9218750
-chrome                     80.96875 00:01:20.9687500
-Code                         68.375 00:01:08.3750000
-Code                       42.28125 00:00:42.2812500
-chrome                         23.5 00:00:23.5000000
-chrome                     19.78125 00:00:19.7812500
-pwsh                      15.359375 00:00:15.3593750
-explorer                   12.65625 00:00:12.6562500
-chrome                    12.203125 00:00:12.2031250
-chrome                     12.09375 00:00:12.0937500
-chrome                        9.875 00:00:09.8750000
-SearchApp                  9.453125 00:00:09.4531250
-Code                       8.734375 00:00:08.7343750
-chrome                       8.6875 00:00:08.6875000
-ctfmon                       8.3125 00:00:08.3125000
-Code                         7.3125 00:00:07.3125000
-chrome                     5.921875 00:00:05.9218750
-chrome                       5.4375 00:00:05.4375000
-chrome                      4.03125 00:00:04.0312500
-chrome                     3.796875 00:00:03.7968750
-CCleaner64                 3.796875 00:00:03.7968750
-chrome                       3.0625 00:00:03.0625000
-OneDrive                    2.71875 00:00:02.7187500
-TextInputHost              2.609375 00:00:02.6093750
-Code                       2.046875 00:00:02.0468750
-chrome                     1.984375 00:00:01.9843750
-chrome                      1.90625 00:00:01.9062500
-chrome                     1.765625 00:00:01.7656250
-RuntimeBroker              1.609375 00:00:01.6093750
-sihost                       1.4375 00:00:01.4375000
-RuntimeBroker               1.34375 00:00:01.3437500
-RuntimeBroker               1.21875 00:00:01.2187500
-pwsh                       1.046875 00:00:01.0468750
-StartMenuExperienceHost    1.015625 00:00:01.0156250
-chrome                     0.984375 00:00:00.9843750
-svchost                    0.703125 00:00:00.7031250
-SystemSettings                0.625 00:00:00.6250000
-chrome                          0.5 00:00:00.5000000
-svchost                     0.46875 00:00:00.4687500
-chrome                     0.453125 00:00:00.4531250
-chrome                       0.4375 00:00:00.4375000
-Code                       0.390625 00:00:00.3906250
-chrome                        0.375 00:00:00.3750000
-Code                          0.375 00:00:00.3750000
-svchost                     0.34375 00:00:00.3437500
-chrome                     0.328125 00:00:00.3281250
-chrome                     0.328125 00:00:00.3281250
-igfxEM                     0.296875 00:00:00.2968750
-taskhostw                   0.28125 00:00:00.2812500
-conhost                    0.265625 00:00:00.2656250
+chrome                    249.15625 00:04:09.1562500
+Code                     227.359375 00:03:47.3593750
+chrome                     98.53125 00:01:38.5312500
+explorer                     90.125 00:01:30.1250000
+Code                      72.734375 00:01:12.7343750
+chrome                    72.453125 00:01:12.4531250
+Code                      53.421875 00:00:53.4218750
+chrome                    47.328125 00:00:47.3281250
+chrome                    40.578125 00:00:40.5781250
+pwsh                       39.03125 00:00:39.0312500
+ctfmon                    35.546875 00:00:35.5468750
+chrome                     19.34375 00:00:19.3437500
+chrome                     18.78125 00:00:18.7812500
+Code                       16.46875 00:00:16.4687500
+chrome                    16.234375 00:00:16.2343750
+chrome                     16.21875 00:00:16.2187500
+chrome                      11.8125 00:00:11.8125000
+Code                        8.53125 00:00:08.5312500
+chrome                     8.140625 00:00:08.1406250
+chrome                       8.0625 00:00:08.0625000
+conhost                    7.796875 00:00:07.7968750
+Code                         7.6875 00:00:07.6875000
+TextInputHost                7.5625 00:00:07.5625000
+SearchApp                   7.09375 00:00:07.0937500
+chrome                        5.625 00:00:05.6250000
+chrome                     4.890625 00:00:04.8906250
+chrome                     4.546875 00:00:04.5468750
+chrome                       4.4375 00:00:04.4375000
+chrome                     4.078125 00:00:04.0781250
+sihost                     3.921875 00:00:03.9218750
+chrome                     3.578125 00:00:03.5781250
+svchost                    3.359375 00:00:03.3593750
+chrome                     2.953125 00:00:02.9531250
+chrome                       2.4375 00:00:02.4375000
+chrome                     2.421875 00:00:02.4218750
+OneDrive                   2.296875 00:00:02.2968750
+RuntimeBroker              2.203125 00:00:02.2031250
+CCleaner64                 2.203125 00:00:02.2031250
+pwsh                       2.046875 00:00:02.0468750
+RuntimeBroker              1.890625 00:00:01.8906250
+chrome                      1.84375 00:00:01.8437500
+StartMenuExperienceHost      1.8125 00:00:01.8125000
+RuntimeBroker                  1.25 00:00:01.2500000
+chrome                      1.21875 00:00:01.2187500
+pwsh                         1.1875 00:00:01.1875000
+pwsh                        1.15625 00:00:01.1562500
+svchost                    1.109375 00:00:01.1093750
+taskhostw                    0.9375 00:00:00.9375000
+YourPhone                   0.90625 00:00:00.9062500
+conhost                    0.890625 00:00:00.8906250
+Microsoft.Photos               0.75 00:00:00.7500000
+SystemSettings             0.671875 00:00:00.6718750
+chrome                      0.65625 00:00:00.6562500
+svchost                    0.609375 00:00:00.6093750
+Code                       0.578125 00:00:00.5781250
+Code                       0.515625 00:00:00.5156250
+chrome                      0.46875 00:00:00.4687500
+RuntimeBroker              0.421875 00:00:00.4218750
+svchost                    0.421875 00:00:00.4218750
+chrome                     0.421875 00:00:00.4218750
+igfxEM                      0.28125 00:00:00.2812500
 Code                       0.234375 00:00:00.2343750
 chrome                     0.234375 00:00:00.2343750
-chrome                     0.234375 00:00:00.2343750
-chrome                      0.21875 00:00:00.2187500
-chrome                      0.21875 00:00:00.2187500
-svchost                     0.21875 00:00:00.2187500
-conhost                    0.203125 00:00:00.2031250
-chrome                     0.203125 00:00:00.2031250
-RAVBg64                    0.140625 00:00:00.1406250
-audiodg                    0.140625 00:00:00.1406250
-chrome                        0.125 00:00:00.1250000
-dllhost                       0.125 00:00:00.1250000
+notepad                    0.203125 00:00:00.2031250
+RAVBg64                       0.125 00:00:00.1250000
+RtkNGUI64                  0.109375 00:00:00.1093750
 ApplicationFrameHost       0.109375 00:00:00.1093750
-chrome                     0.109375 00:00:00.1093750
-chrome                     0.109375 00:00:00.1093750
+dllhost                    0.109375 00:00:00.1093750
 chrome                      0.09375 00:00:00.0937500
 chrome                      0.09375 00:00:00.0937500
-RtkNGUI64                  0.078125 00:00:00.0781250
+chrome                      0.09375 00:00:00.0937500
+chrome                     0.078125 00:00:00.0781250
 SecurityHealthSystray      0.078125 00:00:00.0781250
-chrome                       0.0625 00:00:00.0625000
-chrome                       0.0625 00:00:00.0625000
-chrome                       0.0625 00:00:00.0625000
-chrome                       0.0625 00:00:00.0625000
-chrome                     0.046875 00:00:00.0468750
-UserOOBEBroker              0.03125 00:00:00.0312500
-Code                       0.015625 00:00:00.0156250
-WavesSvc64                 0.015625 00:00:00.0156250
+UserOOBEBroker             0.078125 00:00:00.0781250
+chrome                     0.078125 00:00:00.0781250
+chrome                     0.078125 00:00:00.0781250
+WavesSvc64                 0.046875 00:00:00.0468750
+chrome                      0.03125 00:00:00.0312500
+Code                        0.03125 00:00:00.0312500
+RuntimeBroker               0.03125 00:00:00.0312500
+conhost                    0.015625 00:00:00.0156250
+conhost                           0 00:00:00
 svchost                             
 svchost                             
 svchost                             
@@ -102,17 +107,18 @@ svchost
 svchost                             
 svchost                             
 svchost                             
+IntelCpHDCPSvc                      
 svchost                             
+svchost                             
+winlogon                            
+wininit                             
+vmms                                
+vmcompute                           
 unsecapp                            
-svchost                             
+uhssvc                              
 System                              
 svchost                             
 svchost                             
-vmcompute                           
-svchost                             
-svchost                             
-svchost                             
-vmms                                
 svchost                             
 svchost                             
 svchost                             
@@ -120,7 +126,6 @@ svchost
 svchost                             
 svchost                             
 svchost                             
-wininit                             
 svchost                             
 svchost                             
 svchost                             
@@ -128,47 +133,48 @@ svchost
 svchost                             
 svchost                             
 svchost                             
-uhssvc                              
 svchost                             
 svchost                             
 svchost                             
 svchost                             
 svchost                             
-SearchIndexer                       
 svchost                             
+svchost                             
+svchost                             
+csrss                               
+dasHost                             
+dwm                                 
+RtkAudioService64                   
+Registry                            
+fontdrvhost                         
+RAVBg64                             
+RAVBg64                             
+fontdrvhost                         
+gamingservices                      
+gamingservicesnet                   
+GoogleCrashHandler                  
+GoogleCrashHandler64                
+csrss                               
 OneApp.IGCC.WinService              
 nvwmi64                             
-nvwmi64                             
 NVDisplay.Container                 
 NVDisplay.Container                 
+HPPrintScanDoctorService            
 NisSrv                              
 MsMpEng                             
-MpCopyAccelerator                   
-MoUsoCoreWorker                     
+Idle                                
 Memory Compression                  
 lsass                               
 LsaIso                              
 LMS                                 
 jhi_service                         
 IntelCpHeciSvc                      
-IntelCpHDCPSvc                      
+nvwmi64                             
+svchost                             
+WmiPrvSE                            
+SearchProtocolHost                  
+svchost                             
 igfxCUIService                      
-Idle                                
-HPPrintScanDoctorService            
-GoogleCrashHandler64                
-GoogleCrashHandler                  
-gamingservicesnet                   
-gamingservices                      
-fontdrvhost                         
-fontdrvhost                         
-dwm                                 
-dasHost                             
-csrss                               
-csrss                               
-RAVBg64                             
-RAVBg64                             
-Registry                            
-RtkAudioService64                   
 svchost                             
 svchost                             
 svchost                             
@@ -180,8 +186,7 @@ svchost
 svchost                             
 svchost                             
 svchost                             
-svchost                             
-svchost                             
+SearchIndexer                       
 svchost                             
 svchost                             
 svchost                             
@@ -196,9 +201,6 @@ SgrmBroker
 services                            
 SecurityHealthService               
 Secure System                       
-SearchProtocolHost                  
-winlogon                            
-SearchFilterHost                    
 svchost                             
-WmiPrvSE                            
+SearchFilterHost                    
 

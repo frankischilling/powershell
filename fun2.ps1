@@ -10,7 +10,7 @@ Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writ
         $factor = $ask
         for ($counter =1; $counter -le 50; $counter++) { #counter starts at one and checks until its less then or equal to 25 
          $answer = $counter*$factor
-         Write-Host " $factor times $counter equals $answer" # writes what number the counter is at 
+         Write-Host " $factor times $counter equals $answer" -BackgroundColor black -ForegroundColor white # writes what number the counter is at 
         }
     }
     } while (-not $input)

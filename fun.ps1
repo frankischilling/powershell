@@ -3,13 +3,12 @@ $test = Get-Process | Get-Process | select name, cpu, TotalProcessorTime | Sort-
 Out-File -FilePath .\hi.txt
 $test | Out-File .\hi.txt 
 
-$uinput = Read-Host "what is ur fav number"
-Write-Output "You're fav number is $uinput"
 
 
-if ($uinput -eq [int]) {
-    Write-Host "thx"
-} else {
-    write-host "xD no"
-}
-
+<#$inputValue = 0
+do {
+    $inputValid = [int]::TryParse((Read-Host 'gimme a number'), [ref]$inputValue)
+    if (-not $inputValid) {
+        Write-Host "your input was not an integer..."
+    }
+} while (-not $inputValid)#>
