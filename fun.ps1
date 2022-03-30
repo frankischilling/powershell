@@ -6,7 +6,7 @@ Out-File -FilePath .\hi.txt
 
 $text = "LAST CHECKED @ $day"
 #$text | out-file -Filepath ".\hi.txt" -Append
-$text,$test | Out-File .\hi.txt -Append
+$text,$test5 | Out-File .\hi.txt -Append
 
  
 

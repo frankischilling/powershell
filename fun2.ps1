@@ -3,8 +3,8 @@ $time = Get-Date
 Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writes when it has been ran
 	$input = 0
 	do {
-		$input = [int]::TryParse(($ask = Read-Host "Enter the factor"), [ref]$input)
-		if (-not $input) {
+		$input = [int]::TryParse(($ask = Read-Host "Enter the factor"), [ref]$input) # asking user to enter a factor
+		if (-not $input) { # if not $input then output please use a number
 			Write-Host "Please use a number"
 		} else {
 		$factor = $ask
@@ -14,5 +14,5 @@ Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writ
 		}
 	}
 	} while (-not $input)
-Write-Host "Counter ended @ $time" -BackgroundColor red -ForegroundColor white
+Write-Host "Counter ended @ $time" -BackgroundColor red -ForegroundColor white 
                                                                               
