@@ -1,9 +1,14 @@
 Clear-Host
 $test = Get-Process | Get-Process | select name, cpu, TotalProcessorTime | Sort-Object -property TotalProcessorTime -Descending
+
+$day = get-date
 Out-File -FilePath .\hi.txt
-$test | Out-File .\hi.txt 
 
+$text = "LAST CHECKED @ $day"
+#$text | out-file -Filepath ".\hi.txt" -Append
+$text,$test | Out-File .\hi.txt -Append
 
+ 
 
 <#$inputValue = 0
 do {
