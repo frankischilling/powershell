@@ -23,10 +23,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
 Total Physical Memory:     32,660 MB
-Available Physical Memory: 24,568 MB
+Available Physical Memory: 24,405 MB
 Virtual Memory: Max Size:  37,524 MB
-Virtual Memory: Available: 29,147 MB
-Virtual Memory: In Use:    8,377 MB
+Virtual Memory: Available: 28,987 MB
+Virtual Memory: In Use:    8,537 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    SRTCCNS.EDU
 Logon Server:              \\DC-09-2022
