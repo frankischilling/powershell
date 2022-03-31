@@ -8,7 +8,7 @@ $text = "LAST CHECKED @ $day"
 #$text | out-file -Filepath ".\hi.txt" -Append
 $text,$test5 | Out-File .\hi.txt -Append
 
- 
+
 
 <#$inputValue = 0
 do {
