@@ -1,0 +1,52 @@
+
+Host Name:                 DESKTOP-02
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19043 N/A Build 19043
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          PC
+Registered Organization:   
+Product ID:                00330-52234-29195-AAOEM
+Original Install Date:     10/30/2021, 1:30:59 AM
+System Boot Time:          3/28/2022, 3:49:28 PM
+System Manufacturer:       To Be Filled By O.E.M.
+System Model:              To Be Filled By O.E.M.
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 165 Stepping 5 GenuineIntel ~2808 Mhz
+BIOS Version:              American Megatrends International, LLC. P1.50, 4/15/2021
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:     49,022 MB
+Available Physical Memory: 34,294 MB
+Virtual Memory: Max Size:  56,190 MB
+Virtual Memory: Available: 37,151 MB
+Virtual Memory: In Use:    19,039 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-02
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB5009467
+                           [02]: KB5000736
+                           [03]: KB5011487
+                           [04]: KB5006753
+                           [05]: KB5007273
+                           [06]: KB5011352
+                           [07]: KB5001405
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) Ethernet Connection (11) I219-V
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.0.1
+                                 IP address(es)
+                                 [01]: 192.168.0.79
+                                 [02]: fe80::a831:7f5d:4f01:25bd
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
