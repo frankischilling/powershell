@@ -14,3 +14,15 @@ if ($days -eq $m -or $t -or $th -or $f) { # if monday, tuesday, thursday, or fri
 } else { 
     Write-Host "On Zoom Today" # Print On Zoom Today
 } 
+$PSScriptRoot 
+$main = $PSScriptRoot+"\mainmenu.ps1"
+$endinput = Read-Host "Press 1 to go back to main menu"
+
+switch ($endinput) {
+	'1' {
+		&$main
+	  }
+	Default {}
+}
+
+                                                                              
