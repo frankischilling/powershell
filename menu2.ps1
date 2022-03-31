@@ -1,10 +1,11 @@
 Clear-Host
 Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "written by James Neathawk" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Red
 Write-Host "1 >  " -BackgroundColor Gray -ForegroundColor Red
 Write-Host "2 >  " -BackgroundColor Gray -ForegroundColor Red
 Write-Host "3 >  " -BackgroundColor Gray -ForegroundColor Red
-Write-Host "4 > Close" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "4 > Go back to the main menu" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "5 > Exit" -BackgroundColor Gray -ForegroundColor Red
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $b = $PSScriptRoot+"\.ps1"
