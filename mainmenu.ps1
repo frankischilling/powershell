@@ -10,7 +10,7 @@ Write-Host "5 > Close" -BackgroundColor Gray -ForegroundColor Red
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $compinv = $PSScriptRoot+"\createfile.ps1"
-$mathtim = $PSScriptRoot+"\fun2.ps1"
+$mathtim = $PSScriptRoot+"\math.ps1"
 $school = $PSScriptRoot+"\weekdays.ps1"
 $page2 = $PSScriptRoot+"\menu2.ps1"
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"

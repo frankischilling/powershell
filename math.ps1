@@ -17,13 +17,12 @@ Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writ
 Write-Host "Counter ended @ $time" -BackgroundColor red -ForegroundColor white
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
-$endinput = Read-Host "Press 1 to go back to main menu"
+$endinput = Read-Host "Would you like to go back to the main menu?"
 
-switch ($endinput) {
-	'1' {
-		&$main
-	  }
-	Default {}
+if ($endinput -eq "Yes") {
+	&$main
+} else {
+	Exit 
 }
 
                                                                               
