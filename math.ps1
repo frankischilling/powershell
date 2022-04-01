@@ -17,12 +17,23 @@ Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writ
 Write-Host "Counter ended @ $time" -BackgroundColor red -ForegroundColor white
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
-$endinput = Read-Host "Would you like to go back to the main menu?"
+$math = $PSScriptRoot+"\math.ps1"
+Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "written by stackoverflow xD" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "1 > Go back to the Main Menu" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "2 > Do more math" -BackgroundColor Gray -ForegroundColor Red
+$endinput = Read-Host "Would you like to do?"
 
-if ($endinput -eq "Yes") {
-	&$main
-} else {
-	Exit 
+
+switch ($endinput) {
+	'1'  {
+		&$main
+	}
+	'2' {
+		&$math
+	}
+	Default {
+		&$main
+	}
 }
 
-                                                                              

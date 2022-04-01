@@ -30,6 +30,6 @@ switch ($input) {
         Exit
     }
     Default {
-        
+        &$main
     }
 }
