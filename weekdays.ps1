@@ -14,15 +14,24 @@ if ($days -eq $m -or $t -or $th -or $f) { # if monday, tuesday, thursday, or fri
 } else { 
     Write-Host "On Zoom Today" # Print On Zoom Today
 } 
-$PSScriptRoot 
+#$PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
-$endinput = Read-Host "Press 1 to go back to main menu"
+$weekdays = $PSScriptRoot+"\weekdays.ps1"
+Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "1 > Go back to the main menu " -BackgroundColor Gray -ForegroundColor Red
+Write-Host "2 > See school schedule" -BackgroundColor Gray -ForegroundColor Red
+$endinput = Read-Host "What would you like to do?"
+
 
 switch ($endinput) {
 	'1' {
 		&$main
 	  }
-	Default {}
-}
-
-                                                                              
+	'2' {
+		&$weekdays
+	} 
+	Default {
+		&$weekdays
+	}
+}                                                                  
