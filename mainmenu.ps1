@@ -16,7 +16,7 @@ $page2 = $PSScriptRoot+"\menu2.ps1"
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"
 $input = Read-Host "What would you like to do?"
 switch ($input) {
-    '1' {  
+    '1'  {  
         &$school
     }
     '2' {
