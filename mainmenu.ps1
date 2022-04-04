@@ -23,7 +23,8 @@ switch ($input) {
         &$compinv
         Write-Host "Open the data file with the computer info" -BackgroundColor Gray -ForegroundColor Red
         $compinput = Read-Host "Would you like to go back? (Yes)" 
-        if ($compinput -eq "Yes" -or "yes" -or "y" -or  "Y") {
+        $compinput = $compinput.ToLower
+        if ($compinput -eq "yes") {
             &$main
         } else {
             &$compinv
