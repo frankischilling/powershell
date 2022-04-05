@@ -1,11 +1,14 @@
 Clear-Host
-Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "1 > Search " -BackgroundColor Gray -ForegroundColor Red
-Write-Host "2 >  " -BackgroundColor Gray -ForegroundColor Red
-Write-Host "3 >  " -BackgroundColor Gray -ForegroundColor Red
-Write-Host "4 > Go back to the main menu" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "5 > Exit" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Black
+Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Black
+
+
+Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Search" -f Red -BackgroundColor Gray;
+Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "-error-" -f Red -BackgroundColor Gray;
+Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "-error-" -f Red -BackgroundColor Gray;
+Write-Host "4 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Go back to the main menu" -f Red -BackgroundColor Gray;
+Write-Host "5 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Exit" -f Red -BackgroundColor Gray;
+
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $search = $PSScriptRoot+"\search.ps1"
