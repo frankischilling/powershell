@@ -16,7 +16,7 @@ $compinv = $PSScriptRoot+"\createfile.ps1"
 $mathtim = $PSScriptRoot+"\math.ps1"
 $school = $PSScriptRoot+"\weekdays.ps1"
 $page2 = $PSScriptRoot+"\menu2.ps1"
-$settings = $PSScriptRoot+"\settings.ps1"
+$settings = $PSScriptRoot+"\settings.ps1" 
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"
 $menuinput = Read-Host "What would you like to do?"
 switch ($menuinput) {

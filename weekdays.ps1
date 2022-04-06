@@ -11,9 +11,9 @@ $sa = "Sunday" # setting sa to equal Sunday
 
 if ($days -eq $m -or $t -or $th -or $f) { # if monday, tuesday, thursday, or friday then print in class day
     Write-Host "In Class Day" # Print In Class Day
-} else { 
-    Write-Host "On Zoom Today" # Print On Zoom Today
-} 
+} elseif ($days -eq $w) {
+	Write-Host "On Zoom Today" # Print On Zoom Today
+}
 #$PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $weekdays = $PSScriptRoot+"\weekdays.ps1"
