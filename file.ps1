@@ -14,12 +14,8 @@ Write-Host $replacefun
 $name = $abe 
 #$user = $name -split
 $abe = "Abraham Lincoln"[-1..-100000] -join ''
-Write-Host $abe
 $abe.Split( '' )
 [array]::Reverse($abe)
-$abe -Join ''
-
-
 
 $numberString = "12345"
 
