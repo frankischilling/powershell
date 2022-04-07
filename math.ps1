@@ -1,6 +1,7 @@
 Clear-Host # clears
 $time = Get-Date
 Write-Host "Executed @ $time" -BackgroundColor red -ForegroundColor white # writes when it has been ran
+Write-Host "DO NOT USE NEGATIVE NUMBERS" -BackgroundColor Black -ForegroundColor Red
 $mathinput = 0
 do {
     $mathinput = [int]::TryParse(($ask1 = Read-Host "Enter the factor"), [ref]$mathinput)
@@ -26,7 +27,6 @@ Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Go back
 Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Do more math" -f Red -BackgroundColor Gray;
 Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Close" -f Red -BackgroundColor Gray;
 $endinput = Read-Host "Would you like to do?"
-
 
 switch ($endinput) {
 	'1'  {
