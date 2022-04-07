@@ -11,16 +11,19 @@ $sa = "Sunday" # setting sa to equal Sunday
 
 if ($days -eq $m -or $t -or $th -or $f) { # if monday, tuesday, thursday, or friday then print in class day
     Write-Host "In Class Day" # Print In Class Day
-} else { 
-    Write-Host "On Zoom Today" # Print On Zoom Today
-} 
+} elseif ($days -eq $w) {
+	Write-Host "On Zoom Today" # Print On Zoom Today
+}
 #$PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $weekdays = $PSScriptRoot+"\weekdays.ps1"
-Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "1 > Go back to the main menu " -BackgroundColor Gray -ForegroundColor Red
-Write-Host "2 > See school schedule" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Black
+Write-Host "written by a cat" -BackgroundColor Gray -ForegroundColor Black
+
+Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Go back to the main menu" -f Red -BackgroundColor Gray;
+Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "See school schedule" -f Red -BackgroundColor Gray;
+Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Close" -f Red -BackgroundColor Gray;
+
 $endinput = Read-Host "What would you like to do?"
 
 
@@ -31,6 +34,9 @@ switch ($endinput) {
 	'2' {
 		&$weekdays
 	} 
+	'3' {
+		Exit
+	}
 	Default {
 		&$weekdays
 	}

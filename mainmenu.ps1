@@ -1,27 +1,31 @@
 # & 
 Clear-Host
-Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "written by stackoverflow xD" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "1 > School Schedule" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "2 > Get Computer Inv" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "3 > Math time" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "4 > Page 2" -BackgroundColor Gray -ForegroundColor Red
-Write-Host "5 > Close" -BackgroundColor Gray -ForegroundColor Red
+Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor black
+Write-Host "written by stackoverflow xD" -BackgroundColor Gray -ForegroundColor Black
+
+Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "School Schedule" -f Red -BackgroundColor Gray;
+Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Get Computer Inv" -f Red -BackgroundColor Gray;
+Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Math time" -f Red -BackgroundColor Gray;
+Write-Host "4 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Page 2" -f Red -BackgroundColor Gray;
+Write-Host "5 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Settings" -f Red -BackgroundColor Gray;
+Write-Host "6 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Close" -f Red -BackgroundColor Gray;
+
 $PSScriptRoot 
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $compinv = $PSScriptRoot+"\createfile.ps1"
 $mathtim = $PSScriptRoot+"\math.ps1"
 $school = $PSScriptRoot+"\weekdays.ps1"
 $page2 = $PSScriptRoot+"\menu2.ps1"
+$settings = $PSScriptRoot+"\settings.ps1" 
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"
-$input = Read-Host "What would you like to do?"
-switch ($input) {
+$menuinput = Read-Host "What would you like to do?"
+switch ($menuinput) {
     '1'  {  
         &$school
     }
     '2' {
         &$compinv
-        Write-Host "Open the data file with the computer info" -BackgroundColor Gray -ForegroundColor Red
+        Write-Host "Open the data file with the computer info" -BackgroundColor Gray -ForegroundColor Black
         $compinput = Read-Host "Would you like to go back? (Yes)" 
         $compinput = $compinput.ToLower
         if ($compinput -eq "Yes") {
@@ -37,9 +41,12 @@ switch ($input) {
         &$page2        
     }
     '5' {
+        &$settings
+    }
+    '6' {
         Exit
     }
-    Default {
+     Default {
         &$main
     }
 }
