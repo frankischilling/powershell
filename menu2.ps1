@@ -4,7 +4,7 @@ Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Black
 
 
 Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Search" -f Red -BackgroundColor Gray;
-Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "-error-" -f Red -BackgroundColor Gray;
+Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Temp work" -f Red -BackgroundColor Gray;
 Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "-error-" -f Red -BackgroundColor Gray;
 Write-Host "4 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Go back to the main menu" -f Red -BackgroundColor Gray;
 Write-Host "5 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Exit" -f Red -BackgroundColor Gray;
@@ -13,7 +13,7 @@ $PSScriptRoot
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $search = $PSScriptRoot+"\search.ps1"
 $c = $PSScriptRoot+"\.ps1"
-$fah2cel = $PSScriptRoot+"\."
+$tempwork = $PSScriptRoot+"\tempwork.ps1"
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"
 $input = Read-Host "What would you like to do?"
 
@@ -22,7 +22,7 @@ switch ($input) {
         &$search
     }
     '2' {
-
+        &$tempwork
     }
     '3' {
 
