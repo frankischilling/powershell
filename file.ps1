@@ -1,5 +1,5 @@
 $fun = "Abrham Lincoln"
-
+<# 
 
 
 Clear-Host
@@ -25,9 +25,9 @@ $numberString = "12345"
 
 Write-Host $targetString
 
+#>
 
-
-function buildfile {
+<#function buildfile {
  #param ([string]$name)
 
  for ($counter = 1; $counter -le 10; $counter++) {
@@ -35,7 +35,28 @@ function buildfile {
  } 
 }
 
-buildfile 
+buildfile #>
+
+
+function fahrenheit {
+
+    $cat = Read-Host "What would you like to convert to?"
+    Write-Host "1 > Celsius to Fahrenheit"
+    Write-Host "2 > Fahrenheit to Celsius"
+
+    switch ($cat) {
+        '1' {
+            
+        }
+        Default {Exit}
+    }
+
+}
+param ([int]$meow)
+    $fah = Read-Host "What is the temp in F?"
+    ($fah - 32) * 5 / 9
+fahrenheit
+
 # write a set of 10 file names beginngin with file_0.txt and ending with file_10
 # write a set of 10 tiles name begging with file<n>.txt and ending with file_<n>10.txt 
 #then calls the fucntion with a different beginning file name 

@@ -13,6 +13,7 @@ $PSScriptRoot
 $main = $PSScriptRoot+"\mainmenu.ps1"
 $search = $PSScriptRoot+"\search.ps1"
 $c = $PSScriptRoot+"\.ps1"
+$fah2cel = $PSScriptRoot+"\."
 Write-Host "++++++++++++++++++++++++++++++++++++++++++"
 $input = Read-Host "What would you like to do?"
 
