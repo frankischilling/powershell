@@ -35,8 +35,8 @@ switch ($cat) {
             Write-Host "The temp in F is $answertemp"
         }
         cel2fah
-        $endinput = Read-Host "Would you like to do more?"
-        if ($endinput -eq "Yes" -or "yes" -or "y" -or "Y") {
+        $endinput2 = Read-Host "Would you like to do more?"
+        if ($endinput2 -eq "Yes" -or "yes" -or "y" -or "Y") {
             &$tempwork
         }else {
             Exit
