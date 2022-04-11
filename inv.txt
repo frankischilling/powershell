@@ -9,7 +9,7 @@ Registered Owner:          SRTC
 Registered Organization:   
 Product ID:                00342-50741-47290-AAOEM
 Original Install Date:     5/21/2021, 2:24:55 PM
-System Boot Time:          3/30/2022, 11:17:07 AM
+System Boot Time:          4/8/2022, 11:14:03 AM
 System Manufacturer:       Dell Inc.
 System Model:              Precision Tower 3620
 System Type:               x64-based PC
@@ -23,10 +23,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
 Total Physical Memory:     32,660 MB
-Available Physical Memory: 27,379 MB
+Available Physical Memory: 27,042 MB
 Virtual Memory: Max Size:  37,524 MB
-Virtual Memory: Available: 32,194 MB
-Virtual Memory: In Use:    5,330 MB
+Virtual Memory: Available: 31,861 MB
+Virtual Memory: In Use:    5,663 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    SRTCCNS.EDU
 Logon Server:              \\DC-09-2022
@@ -53,11 +53,11 @@ Network Card(s):           3 NIC(s) Installed.
                                  DHCP Enabled:    No
                                  IP address(es)
                                  [01]: 192.168.56.1
-                                 [02]: fe80::b8eb:43b5:fca8:a9d9
+                                 [02]: fe80::e865:e615:1a80:d2
                            [03]: Hyper-V Virtual Ethernet Adapter
                                  Connection Name: vEthernet (Default Switch)
                                  DHCP Enabled:    No
                                  IP address(es)
-                                 [01]: 172.26.128.1
-                                 [02]: fe80::6917:bcb9:ac52:4d0c
+                                 [01]: 172.25.192.1
+                                 [02]: fe80::dda6:6c35:3f37:318e
 Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
