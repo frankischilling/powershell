@@ -26,10 +26,9 @@ switch ($menuinput) {
     '2' {
         &$compinv
         Write-Host "Open the data file with the computer info" -BackgroundColor Gray -ForegroundColor Black
-        $compinput = Read-Host "Would you like to go back? (Yes)" 
-        $compinput = $compinput.ToLower
-        if ($compinput -eq "Yes") {
-            &$main
+        $compinput = Read-Host "Would you like to read the file? (Yes)" 
+        if ($compinput -eq "Yes" -eq "yes") {
+            Invoke-ITem C:\Users\FHagan\Desktop\powershell\ps\inv.txt
         } else {
             &$compinv
         }
