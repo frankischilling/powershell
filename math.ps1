@@ -42,4 +42,3 @@ switch ($endinput) {
 		&$main
 	}
 }
-
