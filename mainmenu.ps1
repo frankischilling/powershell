@@ -1,7 +1,14 @@
 # & 
 Clear-Host
+$newfunny = Get-Random -InputObject $funnyname
+$funnyname=’stackoverflow’,’frank’,’james neathawk’,’cat’
+
+
 Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor black
-Write-Host "written by stackoverflow xD" -BackgroundColor Gray -ForegroundColor Black
+Write-Host "written by $newfunny xD" -BackgroundColor Gray -ForegroundColor Black
+
+
+
 
 Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "School Schedule" -f Red -BackgroundColor Gray;
 Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Get Computer Inv" -f Red -BackgroundColor Gray;

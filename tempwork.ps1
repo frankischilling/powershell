@@ -16,8 +16,8 @@ switch ($cat) {
     '1' {
       function fah2cel {
         $tempneed = Read-Host "What is the temp in F?"
-        ($tempneed - 32) * 5 / 9
-        Write-Host "The temp in C is $tempneed"
+        $tempanswer = ($tempneed - 32) * 5 / 9
+        Write-Host "The temp in C is $tempanswer"
         }
        fah2cel 
        $endinput = Read-Host "Would you like to do more?"
