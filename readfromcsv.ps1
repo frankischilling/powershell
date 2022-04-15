@@ -1,7 +1,9 @@
 Clear-Host
-Import-Csv .\email.csv | ForEach-Object {
+$fun = Import-Csv .\email.csv
+$pattern = ","
 
-}
+(Get-Content -Path .\email.csv) -replace $pattern |
+Set-Content -Path .\email2.csv
 
 
 <#
