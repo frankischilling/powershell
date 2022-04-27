@@ -1,7 +1,7 @@
 Clear-Host
 Write-Host "+++++++++++++++++++++-Welcome 2 Da Menu (PART 2 REAL NOT CLICK BAIT??!)-+++++++++++++++++++++" -BackgroundColor Gray -ForegroundColor Black
 Write-Host "written by  a cat" -BackgroundColor Gray -ForegroundColor Black
-
+# Menu page 2 allows you to go back and open new programs not found on page 1
 
 Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Search" -f Red -BackgroundColor Gray;
 Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Temp work" -f Red -BackgroundColor Gray;

@@ -26,7 +26,7 @@ Write-Host "written by stackoverflow xD" -BackgroundColor Gray -ForegroundColor 
 Write-Host "1 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Go back to the Main Menu" -f Red -BackgroundColor Gray;
 Write-Host "2 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Do more math" -f Red -BackgroundColor Gray;
 Write-Host "3 > " -f Black -nonewline -BackgroundColor Gray; Write-Host "Close" -f Red -BackgroundColor Gray;
-$endinput = Read-Host "Would you like to do?"
+$endinput = Read-Host "Would you like to do?" # switch statement for leaving the math program
 
 switch ($endinput) {
 	'1'  {
