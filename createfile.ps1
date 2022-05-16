@@ -5,3 +5,6 @@ $data = systeminfo.exe
 $data, $fun | Out-File -FilePath .\inv.txt
 
 $fun | Out-File -FilePath .\allusers.txt 
+
+
+code
