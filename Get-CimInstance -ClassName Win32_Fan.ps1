@@ -4,3 +4,5 @@
 
 
 Get-ChildItem -Path Env:\HOMEPATH
+
+done
